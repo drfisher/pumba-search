@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.kinopoisk.ru/film/*"],
-      "css": ["css/base.css", "css/kinopoisk.css"],
+      "css": ["css/base.css"],
       "js": ["js/base.js", "js/kinopoisk.js"],
       "run_at": "document_end"
     }
