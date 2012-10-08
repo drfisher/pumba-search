@@ -3,6 +3,11 @@
   "version": "0.1",
   "manifest_version": 2,
   "description": "Добавление поиска на «Пумбе» для некоторых киносайтов",
+  "icons": {
+    "16": "images/pumba16.png",
+    "48": "images/pumba48.png",
+    "128": "images/pumba128.png"
+  },
   "page_action": {},
   "content_scripts": [
     {
