@@ -3,18 +3,13 @@
   "version": "0.1",
   "manifest_version": 2,
   "description": "Добавление поиска на «Пумбе» для некоторых киносайтов",
-  "default_locale": "ru",
   "page_action": {},
   "content_scripts": [
     {
       "matches": ["http://www.kinopoisk.ru/film/*"],
-      "css": ["css/content.css"],
-      "js": ["js/content.js"],
+      "css": ["css/base.css", "css/kinopoisk.css"],
+      "js": ["js/base.js", "js/kinopoisk.js"],
       "run_at": "document_end"
     }
-  ],
-  "permissions": [
-    "tabs",
-    "http://www.kinopoisk.ru/"
   ]
 }
