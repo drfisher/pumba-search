@@ -14,7 +14,7 @@ class window.PumbaButton
   render: ->
     @button = document.createElement 'a'
     @button.className = "pumba-button #{@obj.className}"
-    @button.title = "Найти на Пумбе «#{@obj.title}»"
+    @button.title = "Найти «#{@obj.title}» на Пумбе"
     hrefValue = @obj.title.replace new RegExp(" ", "g"), "+"
     @button.setAttribute "href", @href + hrefValue
     @button.setAttribute "target", "_blank"
