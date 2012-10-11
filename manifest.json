@@ -15,6 +15,12 @@
       "css": ["css/base.css"],
       "js": ["js/base.js", "js/kinopoisk.js"],
       "run_at": "document_end"
+    },
+    {
+      "matches": ["http://www.imdb.com/title/*"],
+      "css": ["css/base.css"],
+      "js": ["js/base.js", "js/imdb.js"],
+      "run_at": "document_end"
     }
   ]
 }
