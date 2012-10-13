@@ -8,7 +8,8 @@ class window.PumbaButton
   constructor: (@obj) ->
     # Подготовка объекта
     titleLen = @obj.title.length - 1
-    @obj.title = @obj.title.substring 0, titleLen if @obj.title.lastIndexOf " " is titleLen
+    if @obj.title.lastIndexOf(" ") is titleLen
+      @obj.title = @obj.title.substring 0, titleLen
     @render()
 
   render: ->
