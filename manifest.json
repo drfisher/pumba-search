@@ -17,7 +17,7 @@
       "run_at": "document_end"
     },
     {
-      "matches": ["http://www.imdb.com/title/*"],
+      "matches": ["http://www.imdb.com/title/*/", "http://www.imdb.com/title/*/#*"],
       "css": ["css/base.css"],
       "js": ["js/base.js", "js/imdb.js"],
       "run_at": "document_end"
