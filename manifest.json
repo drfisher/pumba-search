@@ -12,6 +12,20 @@
   "content_scripts": [
     {
       "matches": ["http://www.kinopoisk.ru/film/*"],
+      "exclude_matches": [
+        "*://*/*sites*",
+        "*://*/*video*",
+        "*://*/*tc*",
+        "*://*/*dates*",
+        "*://*/*posters*",
+        "*://*/*stills*",
+        "*://*/*studio*",
+        "*://*/*other*",
+        "*://*/*keywords*",
+        "*://*/*box*",
+        "*://*/*tracks*",
+        "*://*/*buy*"
+      ],
       "css": ["css/base.css"],
       "js": ["js/base.js", "js/kinopoisk.js"],
       "run_at": "document_end"
