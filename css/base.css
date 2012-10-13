@@ -15,3 +15,11 @@
 .pumba-button.kinopoisk {
   margin-left: 6px;
 }
+
+/*
+ * Стиль для сайта imdb.com
+ */
+ .pumba-button.imdb {
+  margin-left: 3px;
+  vertical-align: -3px;
+ }
